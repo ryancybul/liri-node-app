@@ -32,7 +32,9 @@ else if (module === 'do-what-it-says') {
         let text = data.split(',');
         spotifySong(text)
     })
-} else {
+} 
+//Displays directions for user if they do not enter a proper command
+else {
     console.log("Type in one of the commands after 'node liri.js' :" + '\n'
     + '1. my-tweets' + '\n'
     + "2. spotify-this-song 'any song name'" + '\n'
@@ -45,6 +47,7 @@ function myTweets(){
     client.get('statuses/user_timeline', params, function(error, tweets, response) {
         if (!error) {
             tweets = tweets.reverse();
+            console.log('\n');
             for(let i = 0; i < tweets.length ; i++){
                 tweet = ('Tweet #' + (i+1) + ' ' + tweets[i].text);
                 console.log(tweet);

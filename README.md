@@ -3,7 +3,7 @@
 ## LIRI - Language Interpretation and Recognition Interface
 
 ### Description:
-This Node.js application runs in the terminal and takes in commands from the user to display differen't content. 
+This Node.js application runs in the terminal and takes in commands from the user to display differen't content.  This application is useful because it can quickly display information from various sources.
 
 ### Node Package Modules Used
 * Item 1 npm install twitter

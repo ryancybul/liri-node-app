@@ -11,7 +11,7 @@ This Node.js application runs in the terminal and takes in commands from the use
 * Item 3 npm install request
 
 ### Directions:
-Follow the format presented in these queries
+Follow the format presented in these queries:
 * node liri.js my-tweets
 * node liri.js spotify-this-song '<song name here>'
 * node liri.js movie-this '<movie name here>'
